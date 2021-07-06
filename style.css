@@ -8,3 +8,9 @@ body {
 .section1 {
 	display: flex;
 }
+
+.section2 img {
+	width: 255px;
+	height: 242px;
+	padding: 15px;
+}
