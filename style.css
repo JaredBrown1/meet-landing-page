@@ -12,6 +12,15 @@ body {
 
 .section1 {
 	display: flex;
+	justify-content: space-around;
+}
+
+.section1 div {
+	width: 540px;
+}
+
+.logo {
+	margin-top: 50px;
 }
 
 .section1 h1 {
@@ -23,6 +32,10 @@ body {
 
 .section1 p {
 	color: #87879d;
+}
+
+.section1 button {
+	margin-top: 30px;
 }
 
 .btn-one {
@@ -61,10 +74,12 @@ body {
 	cursor: pointer;
 }
 
+/* Section Two */
 .section2 img {
 	width: 255px;
 	height: 242px;
 	padding: 15px;
+	border-radius: 25px;
 }
 
 footer {
