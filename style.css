@@ -1,13 +1,64 @@
-@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap");
 
 body {
 	background-color: #fff;
 	text-align: center;
 	font-family: "Red Hat Display";
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
+/* Section One*/
 
 .section1 {
 	display: flex;
+}
+
+.section1 h1 {
+	font-size: 64px;
+	font-family: "Red Hat Display" Medium;
+	line-height: 20px;
+	color: #28283d;
+}
+
+.section1 p {
+	color: #87879d;
+}
+
+.btn-one {
+	background-color: #4d96a9;
+	font-size: 16px;
+	color: white;
+	width: 193px;
+	height: 58px;
+	border-radius: 30px;
+	border: none;
+	margin-right: 20px;
+}
+
+.btn-one:hover {
+	background-color: #71c0d4;
+	cursor: pointer;
+}
+
+.btn-one span {
+	color: #8fe3f9;
+	font-size: 16px;
+}
+
+.btn-two {
+	background-color: #855fb1;
+	color: white;
+	width: 139px;
+	height: 58px;
+	border-radius: 30px;
+	font-size: 16px;
+	border: none;
+}
+
+.btn-two:hover {
+	background-color: #b188dd;
+	cursor: pointer;
 }
 
 .section2 img {
@@ -18,4 +69,5 @@ body {
 
 footer {
 	background-image: url("images/image-footer.jpg");
+	display: flex;
 }
