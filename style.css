@@ -13,6 +13,7 @@ body {
 .section1 {
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 300px;
 }
 
 .section1 div {
@@ -21,6 +22,7 @@ body {
 
 .logo {
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .section1 h1 {
