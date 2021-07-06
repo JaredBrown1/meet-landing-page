@@ -13,7 +13,7 @@ body {
 .section1 {
 	display: flex;
 	justify-content: space-around;
-	margin-bottom: 300px;
+	margin-bottom: 250px;
 }
 
 .section1 div {
@@ -77,6 +77,10 @@ body {
 }
 
 /* Section Two */
+.section2 {
+	margin-bottom: 50px;
+}
+
 .section2 img {
 	width: 255px;
 	height: 242px;
@@ -84,7 +88,30 @@ body {
 	border-radius: 25px;
 }
 
+/* Section Three */
+.section3 {
+	width: 540px;
+	height: 240px;
+	margin-bottom: 200px;
+}
+
+.section3 h3 {
+	color: #4d96a9;
+	font-size: 16px;
+}
+
+.section3 h1 {
+	font-size: 40px;
+	line-height: 15px;
+}
+
+.section3 p {
+	font-size: 18px;
+	color: #87879d;
+}
+
 footer {
 	background-image: url("images/image-footer.jpg");
 	display: flex;
+	width: 100%;
 }
