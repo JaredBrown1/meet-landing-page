@@ -111,7 +111,36 @@ body {
 }
 
 footer {
-	background-image: url("images/image-footer.jpg");
+	background: linear-gradient(to right, #4d97a9ca, #4d97a9b2),
+		url("images/image-footer.jpg");
+	background-repeat: no-repeat;
 	display: flex;
-	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	width: 1440px;
+	height: 308px;
+	color: #fff;
+}
+
+footer h1 {
+	text-align: left;
+	font-size: 40px;
+}
+
+footer p {
+	text-align: left;
+}
+
+footer button {
+	width: 193px;
+	height: 58px;
+	background-color: #855fb1;
+	color: #fff;
+	border-radius: 30px;
+	border: none;
+	font-size: 16px;
+}
+
+footer span {
+	color: #d9b8ff;
 }
